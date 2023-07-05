@@ -1,0 +1,55 @@
+#backgroundPane{
+    -fx-background-color: linear-gradient( rgb(9, 3, 3) 0%,rgb(3, 3, 63) 50%, rgb(9, 3, 3) 100%);
+}
+#scrollPane{
+    -fx-background-color: transparent;
+
+
+}
+#vBox{
+    -fx-background-color: transparent;
+}
+#image{
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-border-width: 5px;
+}
+#rectangle {
+    -fx-fill: rgba(255, 255, 255, 0.45);
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, rgb(253, 253, 253), 10, 0, 0, 0);
+}
+.userLabel{
+    -fx-text-fill: white;
+}
+.userButton{
+    -fx-effect: dropshadow(gaussian, rgb(139, 248, 219), 10, 0, 0, 0);
+    -fx-border-color: rgb(139, 248, 219);
+    -fx-border-width: 3px;
+    -fx-border-radius: 50%;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.userButton:hover{
+    -fx-effect: dropshadow(gaussian, rgb(248, 56, 56), 10, 0, 0, 0);
+    -fx-border-color: rgba(252, 153, 153, 0.67);
+    -fx-border-width: 3px;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+
+}
+.userButton1{
+    -fx-effect: dropshadow(gaussian, rgb(139, 248, 219), 10, 0, 0, 0);
+    -fx-border-color: rgb(139, 248, 219);
+    -fx-border-width: 3px;
+    -fx-border-radius: 50%;
+    -fx-background-color: transparent;
+}
+.animated-button {
+    -fx-effect: dropshadow(gaussian, rgb(235, 130, 250), 20, 0, 0, 0);
+    -fx-border-color: rgba(188, 2, 232, 0.67);
+    -fx-border-width: 3px;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+}
+

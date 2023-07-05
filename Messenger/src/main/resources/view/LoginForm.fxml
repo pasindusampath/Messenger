@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="main" prefHeight="488.0" prefWidth="360.0" style="-fx-background-color: black;" stylesheets="@../style/LoginFormStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
+   <children>
+      <Circle fx:id="circle1" fill="DODGERBLUE" layoutX="294.0" layoutY="420.0" radius="65.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="68.0" layoutY="95.0" radius="65.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <AnchorPane fx:id="loginPane" layoutX="48.0" layoutY="77.0" prefHeight="347.0" prefWidth="265.0">
+         <children>
+            <JFXTextField fx:id="txtUserName" alignment="CENTER" focusColor="#80dbeb" layoutX="37.0" layoutY="161.0" prefHeight="33.0" prefWidth="188.0" promptText="User Name" unFocusColor="WHITE" />
+            <JFXButton fx:id="btnLogin" layoutX="94.0" layoutY="232.0" onAction="#btnLoginOnAction" prefHeight="25.0" prefWidth="78.0" text="Login" textFill="#e4e1e1" />
+            <ImageView fitHeight="90.0" fitWidth="104.0" layoutX="81.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assert/monitor.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
